@@ -1,0 +1,16 @@
+{
+  "name": "demo-did",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "start":" ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lacchain/did": "^1.4.6"
+  }
+}
