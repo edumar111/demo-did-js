@@ -1,11 +1,11 @@
 import { DID, DIDRecoverable, Resolver } from '@lacchain/did' 
 import * as ethers from 'ethers';
 const did = new DID( {
-    registry: '0xAB00e74C1b0A2313f552E869E6d55B5CdA31aFfe',
-    rpcUrl: 'http://35.185.112.219',
-    nodeAddress: '0xad730de8c4bfc3d845f7ce851bcf2ea17c049585',
-    expiration: 1836394529,
-    network: 'test'
+    registry: '0x81a7f01A18EE444F57551e1fa2f0C12116f318Fb',
+    rpcUrl: 'http://34.73.228.200',
+    nodeAddress: '0x971bb94d235a4ba42d53ab6fb0a86b12c73ba460',
+    expiration: 1715724767000,
+    network: 'main'
  } );
 
 console.log("did: ", did.id ); 
@@ -28,4 +28,5 @@ await did.addVerificationMethod({
  });
 
  let document = await did.getDocument()
+ 
  console.log(document)
